@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="nav">
+    <h1>Kanban Board</h1>
+    <button class="dark-mode">Dark mode</button>
+</div>
+<div class="container">
+    <div class="columns">
+        <div class="column1">
+            <h2>To Do</h2>
+            <div class="plans" id="todo-plans"></div>
+            <input type="text" placeholder="Write your plan..." class="input-value" id="todo-input">
+            <button class="addbtn" id="add-todo">Add</button>
+        </div>
+    </div>
+    
+    <div class="columns">
+        <div class="column1" >
+            <h2>In Progress</h2>
+            <div class="plans" id="inprogress-plans"></div>
+            <input type="text" placeholder="Write your plan..." class="input-value" id="inprogress-input">
+            <button class="addbtn" id="add-inprogress">Add</button>
+        </div>
+    </div>
+
+    <div class="columns">
+        <div class="column1">
+            <h2>Done</h2>
+            <div class="plans" id="done-plans"></div>
+            <input type="text" placeholder="Write your plan..." class="input-value" id="done-input">
+            <button class="addbtn" id="add-done">Add</button>
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
