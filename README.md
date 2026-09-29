@@ -14,7 +14,7 @@ A task management web application that helps users organize and track tasks acro
 
 HTML · CSS · JavaScript
 
-🌐 **Live Website:** [View Kanban Board](YOUR-NETLIFY-LINK)](https://kanban-board-tyob.vercel.app/)
+🌐 **Live Website:** https://kanban-board-tyob.vercel.app/
 
 ## Author
 
